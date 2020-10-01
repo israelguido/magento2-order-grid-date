@@ -1,0 +1,26 @@
+{
+  "name": "israelguido/magento2-OrderGridDate",
+  "description": "Formatando para PT-BR as datas da grid no Magento2",
+  "keywords": [ "israel", "grid", "date", "order"],
+  "homepage": "https://israelguido.com.br",
+  "license": "MIT",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Israel Guido",
+      "email": "israelguido@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "~7.1.3|~7.2.0|~7.3.0|~7.4.0",
+    "israelguido/clean-logs": "master"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Israel\\OrderGridDate\\": ""
+    }
+  }
+}
