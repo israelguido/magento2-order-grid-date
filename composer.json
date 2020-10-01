@@ -1,5 +1,5 @@
 {
-  "name": "israelguido/magento2-OrderGridDate",
+  "name": "israelguido/magento2-order-grid-date",
   "description": "Formatando para PT-BR as datas da grid no Magento2",
   "keywords": [ "israel", "grid", "date", "order"],
   "homepage": "https://israelguido.com.br",
